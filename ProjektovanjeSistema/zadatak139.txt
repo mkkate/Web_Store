@@ -1,0 +1,11 @@
+139. Informacioni sistem tržnog centra za upravljanje prodajom. 
+Za fizicka lica su predvidene usluge maloprodaje, dok su za pravna lica predvidene usluge velikoprodaje. 
+Fizickom licu omogucen je pregled proizvoda iz baze proizvoda za malo prodaju. 
+Ukoliko traženi proizvod postoji u bazi kupac može platiti karticom ili gotovinom i preuzeti robu. 
+Pravno lice najpre mora prijaviti firmu, cime se ime firme upisuje u bazu registrovanih firmi. 
+Nakon registracije otvara se mogucnost pregleda baze proizvoda za velikoprodaju i ukoliko postoji traženi 
+proizvod pravno lice može i tržni centar sacinjavaju ugovor o placanju i klijent preuzima proizvod. 
+Ako proizvod ne postoji u bazi postoji mogucnos narucivanja.
+
+
+Obrazac: Process feedback

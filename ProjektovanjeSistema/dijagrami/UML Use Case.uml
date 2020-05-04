@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IF0NAG90EeqPI5T_1jmdhA" name="Papyrus">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_lNxIoHA6Eeq9AKkPm7XGUA">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_ILKAAG90EeqPI5T_1jmdhA" name="Activity1" node="_bg3MAHAaEeq9AKkPm7XGUA _WpBhEHAfEeq9AKkPm7XGUA _bpkp0HAfEeq9AKkPm7XGUA _eLDIEHAfEeq9AKkPm7XGUA _x-kV4HAfEeq9AKkPm7XGUA _Q2BLMHAgEeq9AKkPm7XGUA _S4Hl0HAgEeq9AKkPm7XGUA _qEzH0HAgEeq9AKkPm7XGUA _xE4fYHAgEeq9AKkPm7XGUA _zeKD4HAgEeq9AKkPm7XGUA _3czDsHAgEeq9AKkPm7XGUA _BX4z0HAhEeq9AKkPm7XGUA _LHcCUHAhEeq9AKkPm7XGUA _N1KM0HAhEeq9AKkPm7XGUA _RKTjsHAhEeq9AKkPm7XGUA _UDewQHAhEeq9AKkPm7XGUA _bXyrYHAhEeq9AKkPm7XGUA _takUUHAhEeq9AKkPm7XGUA _0oc3UHAhEeq9AKkPm7XGUA _4WgdcHAhEeq9AKkPm7XGUA _9LU3UHAhEeq9AKkPm7XGUA _dgBRQHAjEeq9AKkPm7XGUA _1JdOcHAoEeq9AKkPm7XGUA _1JdOcXAoEeq9AKkPm7XGUA _DYK6cHAqEeq9AKkPm7XGUA _GTqDEHBJEeq9AKkPm7XGUA _LwkXsHBJEeq9AKkPm7XGUA _MxrPYHBJEeq9AKkPm7XGUA __fZ6IHAeEeq9AKkPm7XGUA _AkN14HQsEequE9hGXapHMA _EqTsEHQtEequE9hGXapHMA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="__9Y50HAiEeq9AKkPm7XGUA" name="ne" target="_eLDIEHAfEeq9AKkPm7XGUA" source="_WpBhEHAfEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JXBisHAjEeq9AKkPm7XGUA" name="da" target="_dgBRQHAjEeq9AKkPm7XGUA" source="_WpBhEHAfEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0PR3cHAjEeq9AKkPm7XGUA" target="_x-kV4HAfEeq9AKkPm7XGUA" source="_dgBRQHAjEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5HIXMHAjEeq9AKkPm7XGUA" target="_dgBRQHAjEeq9AKkPm7XGUA" source="_eLDIEHAfEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7wMEIHAjEeq9AKkPm7XGUA" target="_bpkp0HAfEeq9AKkPm7XGUA" source="_x-kV4HAfEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kPngUHAkEeq9AKkPm7XGUA" target="_S4Hl0HAgEeq9AKkPm7XGUA" source="_Q2BLMHAgEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9QS6EHAlEeq9AKkPm7XGUA" name="fizicko lice" target="_AkN14HQsEequE9hGXapHMA" source="__fZ6IHAeEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LcUT4HAmEeq9AKkPm7XGUA" target="_xE4fYHAgEeq9AKkPm7XGUA" source="_qEzH0HAgEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MFvrYHAmEeq9AKkPm7XGUA" target="_zeKD4HAgEeq9AKkPm7XGUA" source="_xE4fYHAgEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MqvO0HAmEeq9AKkPm7XGUA" target="_3czDsHAgEeq9AKkPm7XGUA" source="_zeKD4HAgEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eRlCUHApEeq9AKkPm7XGUA" name="pravno" target="_N1KM0HAhEeq9AKkPm7XGUA" source="_BX4z0HAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_h0d6QHApEeq9AKkPm7XGUA" name="fizicko" target="_LHcCUHAhEeq9AKkPm7XGUA" source="_BX4z0HAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_j8IxYHApEeq9AKkPm7XGUA" target="_RKTjsHAhEeq9AKkPm7XGUA" source="_LHcCUHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nMbdcHApEeq9AKkPm7XGUA" name="da" target="_bXyrYHAhEeq9AKkPm7XGUA" source="_RKTjsHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_we014HApEeq9AKkPm7XGUA" name="ne" target="_UDewQHAhEeq9AKkPm7XGUA" source="_RKTjsHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_05ki4HApEeq9AKkPm7XGUA" target="_1JdOcXAoEeq9AKkPm7XGUA" source="_N1KM0HAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1riyYHApEeq9AKkPm7XGUA" name="ne" target="_UDewQHAhEeq9AKkPm7XGUA" source="_1JdOcXAoEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9ZTIQHApEeq9AKkPm7XGUA" name="da" target="_1JdOcHAoEeq9AKkPm7XGUA" source="_1JdOcXAoEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QuQVUHArEeq9AKkPm7XGUA" target="_0oc3UHAhEeq9AKkPm7XGUA" source="_takUUHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Rk0w8HArEeq9AKkPm7XGUA" target="_4WgdcHAhEeq9AKkPm7XGUA" source="_0oc3UHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TBVLMHArEeq9AKkPm7XGUA" target="_9LU3UHAhEeq9AKkPm7XGUA" source="_4WgdcHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jBjK4HBJEeq9AKkPm7XGUA" target="_BX4z0HAhEeq9AKkPm7XGUA" source="_3czDsHAgEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mftT0HBJEeq9AKkPm7XGUA" target="_DYK6cHAqEeq9AKkPm7XGUA" source="_1JdOcHAoEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nQR1IHBJEeq9AKkPm7XGUA" target="_DYK6cHAqEeq9AKkPm7XGUA" source="_bXyrYHAhEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_znQ_8HBJEeq9AKkPm7XGUA" target="_GTqDEHBJEeq9AKkPm7XGUA" source="_bpkp0HAfEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1ZTlUHBJEeq9AKkPm7XGUA" name="ne" target="_LwkXsHBJEeq9AKkPm7XGUA" source="_GTqDEHBJEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5yCgIHBJEeq9AKkPm7XGUA" name="da" target="_MxrPYHBJEeq9AKkPm7XGUA" source="_GTqDEHBJEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CEAWUHBKEeq9AKkPm7XGUA" target="_takUUHAhEeq9AKkPm7XGUA" source="_MxrPYHBJEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2Q3WwHQrEequE9hGXapHMA" target="__fZ6IHAeEeq9AKkPm7XGUA" source="_bg3MAHAaEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OfwjsHQsEequE9hGXapHMA" name="pravno lice" target="_Q2BLMHAgEeq9AKkPm7XGUA" source="__fZ6IHAeEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7wJNcHQsEequE9hGXapHMA" name="offline" target="_qEzH0HAgEeq9AKkPm7XGUA" source="_AkN14HQsEequE9hGXapHMA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HQHQsHQtEequE9hGXapHMA" target="_EqTsEHQtEequE9hGXapHMA" source="_S4Hl0HAgEeq9AKkPm7XGUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JCragHQtEequE9hGXapHMA" name="offline" target="_qEzH0HAgEeq9AKkPm7XGUA" source="_EqTsEHQtEequE9hGXapHMA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yJBswHQtEequE9hGXapHMA" name="online" target="_WpBhEHAfEeq9AKkPm7XGUA" source="_EqTsEHQtEequE9hGXapHMA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__XxmAHQtEequE9hGXapHMA" name="online" target="_WpBhEHAfEeq9AKkPm7XGUA" source="_AkN14HQsEequE9hGXapHMA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_bg3MAHAaEeq9AKkPm7XGUA" name="Zelja za proizvodom" outgoing="_2Q3WwHQrEequE9hGXapHMA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="__fZ6IHAeEeq9AKkPm7XGUA" name="Vrsta klijenta" incoming="_2Q3WwHQrEequE9hGXapHMA" outgoing="_9QS6EHAlEeq9AKkPm7XGUA _OfwjsHQsEequE9hGXapHMA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WpBhEHAfEeq9AKkPm7XGUA" name="Da li je registrovan" incoming="_yJBswHQtEequE9hGXapHMA __XxmAHQtEequE9hGXapHMA" outgoing="__9Y50HAiEeq9AKkPm7XGUA _JXBisHAjEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bpkp0HAfEeq9AKkPm7XGUA" name="Pretrazivanje na sajtu" incoming="_7wMEIHAjEeq9AKkPm7XGUA" outgoing="_znQ_8HBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eLDIEHAfEeq9AKkPm7XGUA" name="Registracija" incoming="__9Y50HAiEeq9AKkPm7XGUA" outgoing="_5HIXMHAjEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_x-kV4HAfEeq9AKkPm7XGUA" name="Logovanje" incoming="_0PR3cHAjEeq9AKkPm7XGUA" outgoing="_7wMEIHAjEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Q2BLMHAgEeq9AKkPm7XGUA" name="Prijava firme" incoming="_OfwjsHQsEequE9hGXapHMA" outgoing="_kPngUHAkEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_S4Hl0HAgEeq9AKkPm7XGUA" name="Upis u bazu firmi" incoming="_kPngUHAkEeq9AKkPm7XGUA" outgoing="_HQHQsHQtEequE9hGXapHMA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qEzH0HAgEeq9AKkPm7XGUA" name="Pretrazivanje prodavnica" incoming="_7wJNcHQsEequE9hGXapHMA _JCragHQtEequE9hGXapHMA" outgoing="_LcUT4HAmEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xE4fYHAgEeq9AKkPm7XGUA" name="Odalazak u kupovinu" incoming="_LcUT4HAmEeq9AKkPm7XGUA" outgoing="_MFvrYHAmEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zeKD4HAgEeq9AKkPm7XGUA" name="Pregled mape" incoming="_MFvrYHAmEeq9AKkPm7XGUA" outgoing="_MqvO0HAmEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3czDsHAgEeq9AKkPm7XGUA" name="Eventualna uputstva" incoming="_MqvO0HAmEeq9AKkPm7XGUA" outgoing="_jBjK4HBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_BX4z0HAhEeq9AKkPm7XGUA" name="Fizicko ili pravno lice" incoming="_jBjK4HBJEeq9AKkPm7XGUA" outgoing="_eRlCUHApEeq9AKkPm7XGUA _h0d6QHApEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LHcCUHAhEeq9AKkPm7XGUA" name="Provera postojanja iz maloprodaje" incoming="_h0d6QHApEeq9AKkPm7XGUA" outgoing="_j8IxYHApEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_N1KM0HAhEeq9AKkPm7XGUA" name="Provera postojanja iz velikoprodaje" incoming="_eRlCUHApEeq9AKkPm7XGUA" outgoing="_05ki4HApEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_RKTjsHAhEeq9AKkPm7XGUA" name="Da li postoji proizvod" incoming="_j8IxYHApEeq9AKkPm7XGUA" outgoing="_nMbdcHApEeq9AKkPm7XGUA _we014HApEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_UDewQHAhEeq9AKkPm7XGUA" name="Narucivanje" incoming="_we014HApEeq9AKkPm7XGUA _1riyYHApEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bXyrYHAhEeq9AKkPm7XGUA" name="Placanje za fizicka lica" incoming="_nMbdcHApEeq9AKkPm7XGUA" outgoing="_nQR1IHBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_takUUHAhEeq9AKkPm7XGUA" name="Sluzba prima posiljku" incoming="_CEAWUHBKEeq9AKkPm7XGUA" outgoing="_QuQVUHArEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0oc3UHAhEeq9AKkPm7XGUA" name="Obavestenje klijenta o datumu pristizanja posiljke" incoming="_QuQVUHArEeq9AKkPm7XGUA" outgoing="_Rk0w8HArEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4WgdcHAhEeq9AKkPm7XGUA" name="Dostavljanje" incoming="_Rk0w8HArEeq9AKkPm7XGUA" outgoing="_TBVLMHArEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_9LU3UHAhEeq9AKkPm7XGUA" name="Preuzimanje proizvoda" incoming="_TBVLMHArEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_dgBRQHAjEeq9AKkPm7XGUA" name="" incoming="_JXBisHAjEeq9AKkPm7XGUA _5HIXMHAjEeq9AKkPm7XGUA" outgoing="_0PR3cHAjEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1JdOcHAoEeq9AKkPm7XGUA" name="Placanje za pravna lica" incoming="_9ZTIQHApEeq9AKkPm7XGUA" outgoing="_mftT0HBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_1JdOcXAoEeq9AKkPm7XGUA" name="Da li postoji proizvod" incoming="_05ki4HApEeq9AKkPm7XGUA" outgoing="_1riyYHApEeq9AKkPm7XGUA _9ZTIQHApEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_DYK6cHAqEeq9AKkPm7XGUA" name="Preuzimanje" incoming="_mftT0HBJEeq9AKkPm7XGUA _nQR1IHBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_GTqDEHBJEeq9AKkPm7XGUA" name="Dostupnost proizvoda" incoming="_znQ_8HBJEeq9AKkPm7XGUA" outgoing="_1ZTlUHBJEeq9AKkPm7XGUA _5yCgIHBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_LwkXsHBJEeq9AKkPm7XGUA" name="Naruci" incoming="_1ZTlUHBJEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MxrPYHBJEeq9AKkPm7XGUA" name="Placanje karticom" incoming="_5yCgIHBJEeq9AKkPm7XGUA" outgoing="_CEAWUHBKEeq9AKkPm7XGUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_AkN14HQsEequE9hGXapHMA" name="Nacin kupovine" incoming="_9QS6EHAlEeq9AKkPm7XGUA" outgoing="_7wJNcHQsEequE9hGXapHMA __XxmAHQtEequE9hGXapHMA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_EqTsEHQtEequE9hGXapHMA" name="Nacin kupovine" incoming="_HQHQsHQtEequE9hGXapHMA" outgoing="_JCragHQtEequE9hGXapHMA _yJBswHQtEequE9hGXapHMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_IN-qgG90EeqPI5T_1jmdhA">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_xri8YG-UEeqPI5T_1jmdhA" name="Fizicko lice" coveredBy="_hVC9IG-WEeqPI5T_1jmdhA _hVEyUG-WEeqPI5T_1jmdhA _qed_wG-WEeqPI5T_1jmdhA _MDJPwHQKEeqWoqvR8h7srw _VpHrgHQKEeqWoqvR8h7srw _MDLE8HQKEeqWoqvR8h7srw _cPPOcHQLEeqWoqvR8h7srw _cPRqsHQLEeqWoqvR8h7srw _mFXmEHQLEeqWoqvR8h7srw _b1NBAHQPEeqWoqvR8h7srw _yxOekHQUEeqWoqvR8h7srw _yxOekXQUEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_7iS_EG-UEeqPI5T_1jmdhA" name="Info pult" coveredBy="_qeem0G-WEeqPI5T_1jmdhA _t2nAQG-WEeqPI5T_1jmdhA _t2nnUG-WEeqPI5T_1jmdhA _wL-8MG-WEeqPI5T_1jmdhA _wL-8MW-WEeqPI5T_1jmdhA _0EVGwG-WEeqPI5T_1jmdhA _MDJPwHQKEeqWoqvR8h7srw _MDLE8HQKEeqWoqvR8h7srw _VpHrgHQKEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_88aMoG-UEeqPI5T_1jmdhA" name="Maloprodaja" coveredBy="_0EVt0G-WEeqPI5T_1jmdhA _MDJPwHQKEeqWoqvR8h7srw _MDLE8HQKEeqWoqvR8h7srw _VpHrgHQKEeqWoqvR8h7srw _etB_MHQOEeqWoqvR8h7srw _etD0YHQOEeqWoqvR8h7srw _ja-8EHQOEeqWoqvR8h7srw _EmuvQXQPEeqWoqvR8h7srw _IqSrUHQPEeqWoqvR8h7srw _b1Ly4HQPEeqWoqvR8h7srw _EmuvQHQPEeqWoqvR8h7srw _EmthIHQPEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_-5mKsG-XEeqPI5T_1jmdhA" name="Pravno lice" coveredBy="_JTaeMG-YEeqPI5T_1jmdhA _JTbsUG-YEeqPI5T_1jmdhA _LFECAG-YEeqPI5T_1jmdhA _x8D7sHQVEeqWoqvR8h7srw _x8CtkHQVEeqWoqvR8h7srw _3avx8HQVEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_AywEsG-YEeqPI5T_1jmdhA" name="Info pult" coveredBy="_QMi5MG-YEeqPI5T_1jmdhA _x8D7sHQVEeqWoqvR8h7srw _x8CtkHQVEeqWoqvR8h7srw _3avx8HQVEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_DwfoMG-YEeqPI5T_1jmdhA" name="Velikoprodaja" coveredBy="_x8D7sHQVEeqWoqvR8h7srw _x8CtkHQVEeqWoqvR8h7srw _3avx8HQVEeqWoqvR8h7srw __n3ScHQXEeqWoqvR8h7srw __n5HoHQXEeqWoqvR8h7srw _CAcTYHQYEeqWoqvR8h7srw _XZZAMHQTEeqWoqvR8h7srw _XZaOUHQTEeqWoqvR8h7srw _XZaOUXQTEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_3T0PoG-YEeqPI5T_1jmdhA" name="Online klijent" coveredBy="_LMSO4G-ZEeqPI5T_1jmdhA _LMTdAG-ZEeqPI5T_1jmdhA _MbS_sG-ZEeqPI5T_1jmdhA _MbU04G-ZEeqPI5T_1jmdhA _WiFpgG-ZEeqPI5T_1jmdhA _vxVOQG-bEeqPI5T_1jmdhA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_5dOMIG-YEeqPI5T_1jmdhA" name="Prodavnica" coveredBy="_WiGQkG-ZEeqPI5T_1jmdhA _sUtqQHBHEeq9AKkPm7XGUA _sUuRUHBHEeq9AKkPm7XGUA _DUD64HBIEeq9AKkPm7XGUA _K1Li8HBIEeq9AKkPm7XGUA _aoyfAHDfEeq_x7sXC32udQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ECvZUG-ZEeqPI5T_1jmdhA" name="Sluzba za dostavu" coveredBy="_muswIG-bEeqPI5T_1jmdhA _o_xa4G-bEeqPI5T_1jmdhA _o_xa4W-bEeqPI5T_1jmdhA _vxUAIG-bEeqPI5T_1jmdhA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_0qTRoHBGEeq9AKkPm7XGUA" name="Online prodavnica" coveredBy="_EfhocHBIEeq9AKkPm7XGUA _K1MKAHBIEeq9AKkPm7XGUA _srPecHBIEeq9AKkPm7XGUA _srPecXBIEeq9AKkPm7XGUA _muriAG-bEeqPI5T_1jmdhA _ZMI60HDfEeq_x7sXC32udQ _ZML-IHDfEeq_x7sXC32udQ _aowp0HDfEeq_x7sXC32udQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_xsZa8HQIEeqWoqvR8h7srw" name="Online prodavnica" coveredBy="_MDJPwHQKEeqWoqvR8h7srw _VpHrgHQKEeqWoqvR8h7srw _MDLE8HQKEeqWoqvR8h7srw _4HHUQHQLEeqWoqvR8h7srw _Ic4BwHQMEeqWoqvR8h7srw _IdMK0HQMEeqWoqvR8h7srw _Q2di4HQMEeqWoqvR8h7srw _auNEEHQMEeqWoqvR8h7srw _auOSMHQMEeqWoqvR8h7srw _u4ZFcHQMEeqWoqvR8h7srw _etB_MHQOEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_yBYFEHQLEeqWoqvR8h7srw" name="Prodavnica" coveredBy="_MDJPwHQKEeqWoqvR8h7srw _VpHrgHQKEeqWoqvR8h7srw _MDLE8HQKEeqWoqvR8h7srw _4HEQ8HQLEeqWoqvR8h7srw _NN9yMHQMEeqWoqvR8h7srw _NN9LIHQMEeqWoqvR8h7srw _etB_MHQOEeqWoqvR8h7srw _etD0YHQOEeqWoqvR8h7srw _ja-8EHQOEeqWoqvR8h7srw _IqSrUXQPEeqWoqvR8h7srw _Q2f_IHQMEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_io5CsHQMEeqWoqvR8h7srw" name="Sluzba za dostavu" coveredBy="_MDJPwHQKEeqWoqvR8h7srw _VpHrgHQKEeqWoqvR8h7srw _MDLE8HQKEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_zVUKcHQREeqWoqvR8h7srw" name="Prodavnica" coveredBy="_x8D7sHQVEeqWoqvR8h7srw _x8CtkHQVEeqWoqvR8h7srw _3avx8HQVEeqWoqvR8h7srw _E89rsHQUEeqWoqvR8h7srw _DMNfwHQUEeqWoqvR8h7srw _DMOt4HQUEeqWoqvR8h7srw __n3ScHQXEeqWoqvR8h7srw __n5HoHQXEeqWoqvR8h7srw _CAcTYHQYEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_2IIQUHQREeqWoqvR8h7srw" name="Online prodavnica" coveredBy="_x8D7sHQVEeqWoqvR8h7srw _x8CtkHQVEeqWoqvR8h7srw _3avx8HQVEeqWoqvR8h7srw _E87PcHQUEeqWoqvR8h7srw _7Z-SgHQTEeqWoqvR8h7srw _3kG0MHQTEeqWoqvR8h7srw _TBINMHQYEeqWoqvR8h7srw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_BjIUAHQSEeqWoqvR8h7srw" name="Sluzba za dostavu" coveredBy="_x8CtkHQVEeqWoqvR8h7srw _x8D7sHQVEeqWoqvR8h7srw _3avx8HQVEeqWoqvR8h7srw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sUtqQHBHEeq9AKkPm7XGUA" name="ActionExecSpec0Start" covered="_5dOMIG-YEeqPI5T_1jmdhA" execution="_sUuRUHBHEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LMSO4G-ZEeqPI5T_1jmdhA" name="MessageSend13" covered="_3T0PoG-YEeqPI5T_1jmdhA" message="_LMPyoG-ZEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MbS_sG-ZEeqPI5T_1jmdhA" name="MessageSend14" covered="_3T0PoG-YEeqPI5T_1jmdhA" message="_MbRxkG-ZEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_muswIG-bEeqPI5T_1jmdhA" name="MessageRecv19" covered="_ECvZUG-ZEeqPI5T_1jmdhA" message="_mups0G-bEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WiGQkG-ZEeqPI5T_1jmdhA" name="Message0Recv" covered="_5dOMIG-YEeqPI5T_1jmdhA" message="_WiEbYG-ZEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_muriAG-bEeqPI5T_1jmdhA" name="MessageSend19" covered="_0qTRoHBGEeq9AKkPm7XGUA" message="_mups0G-bEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WiFpgG-ZEeqPI5T_1jmdhA" name="Message0Send" covered="_3T0PoG-YEeqPI5T_1jmdhA" message="_WiEbYG-ZEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_DUD64HBIEeq9AKkPm7XGUA" name="ActionExecSpec0Finish" covered="_5dOMIG-YEeqPI5T_1jmdhA" execution="_sUuRUHBHEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_sUuRUHBHEeq9AKkPm7XGUA" name="ActionExecSpec0" covered="_5dOMIG-YEeqPI5T_1jmdhA" finish="_DUD64HBIEeq9AKkPm7XGUA" start="_sUtqQHBHEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ZML-IHDfEeq_x7sXC32udQ" name="ActionExecSpec1Finish" covered="_0qTRoHBGEeq9AKkPm7XGUA" execution="_EfhocHBIEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aoyfAHDfEeq_x7sXC32udQ" name="MessageRecv25" covered="_5dOMIG-YEeqPI5T_1jmdhA" message="_aoLbAHDfEeq_x7sXC32udQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_srPecXBIEeq9AKkPm7XGUA" name="MessageRecv24" covered="_0qTRoHBGEeq9AKkPm7XGUA" message="_srOQUHBIEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QMi5MG-YEeqPI5T_1jmdhA" name="MessageRecv8" covered="_AywEsG-YEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vxVOQG-bEeqPI5T_1jmdhA" name="MessageRecv21" covered="_3T0PoG-YEeqPI5T_1jmdhA" message="_vxQ80G-bEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K1Li8HBIEeq9AKkPm7XGUA" name="MessageSend22" covered="_5dOMIG-YEeqPI5T_1jmdhA" message="_K1K74HBIEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o_xa4W-bEeqPI5T_1jmdhA" name="MessageRecv20" covered="_ECvZUG-ZEeqPI5T_1jmdhA" message="_o_tJcG-bEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aowp0HDfEeq_x7sXC32udQ" name="MessageSend25" covered="_0qTRoHBGEeq9AKkPm7XGUA" message="_aoLbAHDfEeq_x7sXC32udQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_srPecHBIEeq9AKkPm7XGUA" name="MessageSend24" covered="_0qTRoHBGEeq9AKkPm7XGUA" message="_srOQUHBIEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JTbsUG-YEeqPI5T_1jmdhA" name="MessageRecv5" covered="_-5mKsG-XEeqPI5T_1jmdhA" message="_JTYB8G-YEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LFECAG-YEeqPI5T_1jmdhA" name="MessageSend6" covered="_-5mKsG-XEeqPI5T_1jmdhA" message="_LFA-sG-YEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_EfhocHBIEeq9AKkPm7XGUA" name="ActionExecSpec1" covered="_0qTRoHBGEeq9AKkPm7XGUA" finish="_ZML-IHDfEeq_x7sXC32udQ" start="_aowp0HDfEeq_x7sXC32udQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vxUAIG-bEeqPI5T_1jmdhA" name="MessageSend21" covered="_ECvZUG-ZEeqPI5T_1jmdhA" message="_vxQ80G-bEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_MDJPwHQKEeqWoqvR8h7srw" name="CombinedFragment" covered="_88aMoG-UEeqPI5T_1jmdhA _7iS_EG-UEeqPI5T_1jmdhA _xri8YG-UEeqPI5T_1jmdhA _xsZa8HQIEeqWoqvR8h7srw _yBYFEHQLEeqWoqvR8h7srw _io5CsHQMEeqWoqvR8h7srw" interactionOperator="alt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_MDLE8HQKEeqWoqvR8h7srw" name="InteractionOperand" covered="_88aMoG-UEeqPI5T_1jmdhA _7iS_EG-UEeqPI5T_1jmdhA _xri8YG-UEeqPI5T_1jmdhA _xsZa8HQIEeqWoqvR8h7srw _yBYFEHQLEeqWoqvR8h7srw _io5CsHQMEeqWoqvR8h7srw">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hVC9IG-WEeqPI5T_1jmdhA" name="MessageSend" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_hVBH8G-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hVEyUG-WEeqPI5T_1jmdhA" name="MessageRecv" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_hVBH8G-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qed_wG-WEeqPI5T_1jmdhA" name="MessageSend0" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_qecxoG-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qeem0G-WEeqPI5T_1jmdhA" name="MessageRecv0" covered="_7iS_EG-UEeqPI5T_1jmdhA" message="_qecxoG-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t2nAQG-WEeqPI5T_1jmdhA" name="MessageSend1" covered="_7iS_EG-UEeqPI5T_1jmdhA" message="_t2iu0G-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t2nnUG-WEeqPI5T_1jmdhA" name="MessageRecv1" covered="_7iS_EG-UEeqPI5T_1jmdhA" message="_t2iu0G-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wL-8MG-WEeqPI5T_1jmdhA" name="MessageSend2" covered="_7iS_EG-UEeqPI5T_1jmdhA" message="_wL9uEG-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wL-8MW-WEeqPI5T_1jmdhA" name="MessageRecv2" covered="_7iS_EG-UEeqPI5T_1jmdhA" message="_wL9uEG-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_EmthIHQPEeqWoqvR8h7srw" name="ActionExecSpecStart" covered="_88aMoG-UEeqPI5T_1jmdhA" execution="_EmuvQHQPEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_EmuvQHQPEeqWoqvR8h7srw" name="ActionExecSpec" covered="_88aMoG-UEeqPI5T_1jmdhA" finish="_EmuvQXQPEeqWoqvR8h7srw" start="_EmthIHQPEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0EVGwG-WEeqPI5T_1jmdhA" name="MessageSend3" covered="_7iS_EG-UEeqPI5T_1jmdhA" message="_0ESqgG-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0EVt0G-WEeqPI5T_1jmdhA" name="MessageRecv3" covered="_88aMoG-UEeqPI5T_1jmdhA" message="_0ESqgG-WEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_etB_MHQOEeqWoqvR8h7srw" name="CombinedFragment" covered="_yBYFEHQLEeqWoqvR8h7srw _88aMoG-UEeqPI5T_1jmdhA _xsZa8HQIEeqWoqvR8h7srw" interactionOperator="alt">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_etD0YHQOEeqWoqvR8h7srw" name="InteractionOperand" covered="_yBYFEHQLEeqWoqvR8h7srw _88aMoG-UEeqPI5T_1jmdhA">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IqSrUHQPEeqWoqvR8h7srw" name="MessageSend5" covered="_88aMoG-UEeqPI5T_1jmdhA" message="_IqSEQHQPEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_EmuvQXQPEeqWoqvR8h7srw" name="ActionExecSpecFinish" covered="_88aMoG-UEeqPI5T_1jmdhA" execution="_EmuvQHQPEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IqSrUXQPEeqWoqvR8h7srw" name="MessageRecv5" covered="_yBYFEHQLEeqWoqvR8h7srw" message="_IqSEQHQPEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RDiBAG-XEeqPI5T_1jmdhA" name="MessageSend4" message="_RDhZ8G-XEeqPI5T_1jmdhA"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RDioEG-XEeqPI5T_1jmdhA" name="MessageRecv4" message="_RDhZ8G-XEeqPI5T_1jmdhA"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_etD0YXQOEeqWoqvR8h7srw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_CaBnIHQPEeqWoqvR8h7srw" value="ne postoji"/>
+              <maxint xmi:type="uml:LiteralInteger" xmi:id="_etEbcXQOEeqWoqvR8h7srw" value="1"/>
+              <minint xmi:type="uml:LiteralInteger" xmi:id="_etEbcHQOEeqWoqvR8h7srw"/>
+            </guard>
+          </operand>
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_ja-8EHQOEeqWoqvR8h7srw" name="InteractionOperand0" covered="_yBYFEHQLEeqWoqvR8h7srw _88aMoG-UEeqPI5T_1jmdhA">
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_jbAxQHQOEeqWoqvR8h7srw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_AG9_YHQPEeqWoqvR8h7srw" value="postoji"/>
+              <maxint xmi:type="uml:LiteralInteger" xmi:id="_jbBYUHQOEeqWoqvR8h7srw" value="1"/>
+              <minint xmi:type="uml:LiteralInteger" xmi:id="_jbAxQnQOEeqWoqvR8h7srw"/>
+            </guard>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b1Ly4HQPEeqWoqvR8h7srw" name="MessageSend4" covered="_88aMoG-UEeqPI5T_1jmdhA" message="_b1JWoHQPEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b1NBAHQPEeqWoqvR8h7srw" name="MessageRecv4" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_b1JWoHQPEeqWoqvR8h7srw"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_MDLsAHQKEeqWoqvR8h7srw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_hhVPoHQKEeqWoqvR8h7srw" value="offline kupovina"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_MDLsA3QKEeqWoqvR8h7srw" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_MDLsAnQKEeqWoqvR8h7srw"/>
+        </guard>
+      </operand>
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_VpHrgHQKEeqWoqvR8h7srw" name="InteractionOperand0" covered="_88aMoG-UEeqPI5T_1jmdhA _7iS_EG-UEeqPI5T_1jmdhA _xri8YG-UEeqPI5T_1jmdhA _xsZa8HQIEeqWoqvR8h7srw _yBYFEHQLEeqWoqvR8h7srw _io5CsHQMEeqWoqvR8h7srw">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ogto8HQLEeqWoqvR8h7srw" name="MessageSend" message="_OgZf4HQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OguQAHQLEeqWoqvR8h7srw" name="MessageRecv" message="_OgZf4HQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cPPOcHQLEeqWoqvR8h7srw" name="MessageSend0" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_cPMyMHQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cPRqsHQLEeqWoqvR8h7srw" name="MessageRecv0" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_cPMyMHQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_NN9LIHQMEeqWoqvR8h7srw" name="ActionExecSpec0Start" covered="_yBYFEHQLEeqWoqvR8h7srw" execution="_NN9yMHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_NN9yMHQMEeqWoqvR8h7srw" name="ActionExecSpec0" covered="_yBYFEHQLEeqWoqvR8h7srw" finish="_Q2f_IHQMEeqWoqvR8h7srw" start="_NN9LIHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Ic4BwHQMEeqWoqvR8h7srw" name="ActionExecSpecStart" covered="_xsZa8HQIEeqWoqvR8h7srw" execution="_IdMK0HQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_IdMK0HQMEeqWoqvR8h7srw" name="ActionExecSpec" covered="_xsZa8HQIEeqWoqvR8h7srw" finish="_Q2di4HQMEeqWoqvR8h7srw" start="_Ic4BwHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mFXmEHQLEeqWoqvR8h7srw" name="MessageSend1" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_mFT7sHQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mFY0MHQLEeqWoqvR8h7srw" name="MessageRecv1" message="_mFT7sHQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4HEQ8HQLEeqWoqvR8h7srw" name="MessageSend2" covered="_yBYFEHQLEeqWoqvR8h7srw" message="_4HDp4HQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4HHUQHQLEeqWoqvR8h7srw" name="MessageRecv2" covered="_xsZa8HQIEeqWoqvR8h7srw" message="_4HDp4HQLEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Q2f_IHQMEeqWoqvR8h7srw" name="MessageRecv" covered="_yBYFEHQLEeqWoqvR8h7srw" message="_Q2ZRcHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Q2di4HQMEeqWoqvR8h7srw" name="MessageSend" covered="_xsZa8HQIEeqWoqvR8h7srw" message="_Q2ZRcHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_auNEEHQMEeqWoqvR8h7srw" name="MessageSend3" covered="_xsZa8HQIEeqWoqvR8h7srw" message="_auKAwHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_auOSMHQMEeqWoqvR8h7srw" name="MessageRecv3" covered="_xsZa8HQIEeqWoqvR8h7srw" message="_auKAwHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u4ZFcHQMEeqWoqvR8h7srw" name="MessageSend4" covered="_xsZa8HQIEeqWoqvR8h7srw" message="_u4XQQHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u4a6oHQMEeqWoqvR8h7srw" name="MessageRecv4" message="_u4XQQHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zkDjUHQMEeqWoqvR8h7srw" name="MessageSend5" message="_zkAgAHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zkFYgHQMEeqWoqvR8h7srw" name="MessageRecv5" message="_zkAgAHQMEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AeMegHQNEeqWoqvR8h7srw" name="MessageSend6" message="_AeKCQHQNEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AeNFkHQNEeqWoqvR8h7srw" name="MessageRecv6" message="_AeKCQHQNEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yxOekHQUEeqWoqvR8h7srw" name="Message0Send" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_yxKNIHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yxOekXQUEeqWoqvR8h7srw" name="Message0Recv" covered="_xri8YG-UEeqPI5T_1jmdhA" message="_yxKNIHQUEeqWoqvR8h7srw"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_VpJgsHQKEeqWoqvR8h7srw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_ixU34HQKEeqWoqvR8h7srw" value="online kupovina"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_VpKu0XQKEeqWoqvR8h7srw" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_VpKu0HQKEeqWoqvR8h7srw"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JTaeMG-YEeqPI5T_1jmdhA" name="MessageSend5" covered="_-5mKsG-XEeqPI5T_1jmdhA" message="_JTYB8G-YEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MbU04G-ZEeqPI5T_1jmdhA" name="MessageRecv14" covered="_3T0PoG-YEeqPI5T_1jmdhA" message="_MbRxkG-ZEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LMTdAG-ZEeqPI5T_1jmdhA" name="MessageRecv13" covered="_3T0PoG-YEeqPI5T_1jmdhA" message="_LMPyoG-ZEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ZMI60HDfEeq_x7sXC32udQ" name="ActionExecSpec1Finish" covered="_0qTRoHBGEeq9AKkPm7XGUA" execution="_EfhocHBIEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LFFQIG-YEeqPI5T_1jmdhA" name="MessageRecv6" message="_LFA-sG-YEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_K1MKAHBIEeq9AKkPm7XGUA" name="MessageRecv22" covered="_0qTRoHBGEeq9AKkPm7XGUA" message="_K1K74HBIEeq9AKkPm7XGUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o_xa4G-bEeqPI5T_1jmdhA" name="MessageSend20" covered="_ECvZUG-ZEeqPI5T_1jmdhA" message="_o_tJcG-bEeqPI5T_1jmdhA"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_x8CtkHQVEeqWoqvR8h7srw" name="CombinedFragment0" covered="_-5mKsG-XEeqPI5T_1jmdhA _DwfoMG-YEeqPI5T_1jmdhA _BjIUAHQSEeqWoqvR8h7srw _2IIQUHQREeqWoqvR8h7srw _AywEsG-YEeqPI5T_1jmdhA _zVUKcHQREeqWoqvR8h7srw" interactionOperator="alt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_x8D7sHQVEeqWoqvR8h7srw" name="InteractionOperand" covered="_-5mKsG-XEeqPI5T_1jmdhA _DwfoMG-YEeqPI5T_1jmdhA _2IIQUHQREeqWoqvR8h7srw _AywEsG-YEeqPI5T_1jmdhA _zVUKcHQREeqWoqvR8h7srw _BjIUAHQSEeqWoqvR8h7srw">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Nh4CsG-YEeqPI5T_1jmdhA" name="MessageSend7" message="_Nh2NgG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Nh4pwG-YEeqPI5T_1jmdhA" name="MessageRecv7" message="_Nh2NgG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GrxMUHQTEeqWoqvR8h7srw" name="MessageSend26" message="_GrwlQHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GrxzYHQTEeqWoqvR8h7srw" name="MessageRecv26" message="_GrwlQHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RzaJUG-YEeqPI5T_1jmdhA" name="MessageSend9" message="_RzY7MG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RzaJUW-YEeqPI5T_1jmdhA" name="MessageRecv9" message="_RzY7MG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ey6ssG-YEeqPI5T_1jmdhA" name="MessageSend10" message="_ey3pYG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ey7TwG-YEeqPI5T_1jmdhA" name="MessageRecv10" message="_ey3pYG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gsyYYG-YEeqPI5T_1jmdhA" name="MessageSend11" message="_gsxKQG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gsyYYW-YEeqPI5T_1jmdhA" name="MessageRecv11" message="_gsxKQG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="__n3ScHQXEeqWoqvR8h7srw" name="CombinedFragment" covered="_DwfoMG-YEeqPI5T_1jmdhA _zVUKcHQREeqWoqvR8h7srw" interactionOperator="alt">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="__n5HoHQXEeqWoqvR8h7srw" name="InteractionOperand" covered="_DwfoMG-YEeqPI5T_1jmdhA _zVUKcHQREeqWoqvR8h7srw">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_byz3gHQTEeqWoqvR8h7srw" name="Message0Recv0" message="_byxbQHQTEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XZZAMHQTEeqWoqvR8h7srw" name="ActionExecSpec2Start" covered="_DwfoMG-YEeqPI5T_1jmdhA" execution="_XZaOUHQTEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mKtZoG-YEeqPI5T_1jmdhA" name="MessageSend12" message="_mKq9YG-YEeqPI5T_1jmdhA"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_byzQcHQTEeqWoqvR8h7srw" name="Message0Send0" message="_byxbQHQTEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_XZaOUHQTEeqWoqvR8h7srw" name="ActionExecSpec2" covered="_DwfoMG-YEeqPI5T_1jmdhA" finish="_XZaOUXQTEeqWoqvR8h7srw" start="_XZZAMHQTEeqWoqvR8h7srw"/>
+            <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_XZaOUXQTEeqWoqvR8h7srw" name="ActionExecSpec2Finish" covered="_DwfoMG-YEeqPI5T_1jmdhA" execution="_XZaOUHQTEeqWoqvR8h7srw"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="__n5HoXQXEeqWoqvR8h7srw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_MsV1YHQYEeqWoqvR8h7srw" value="ne postoji"/>
+              <maxint xmi:type="uml:LiteralInteger" xmi:id="__n5HpHQXEeqWoqvR8h7srw" value="1"/>
+              <minint xmi:type="uml:LiteralInteger" xmi:id="__n5Ho3QXEeqWoqvR8h7srw"/>
+            </guard>
+          </operand>
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_CAcTYHQYEeqWoqvR8h7srw" name="InteractionOperand0" covered="_DwfoMG-YEeqPI5T_1jmdhA _zVUKcHQREeqWoqvR8h7srw">
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_CAc6cHQYEeqWoqvR8h7srw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_LaUM0HQYEeqWoqvR8h7srw" value="postoji"/>
+              <maxint xmi:type="uml:LiteralInteger" xmi:id="_CAc6c3QYEeqWoqvR8h7srw" value="1"/>
+              <minint xmi:type="uml:LiteralInteger" xmi:id="_CAc6cnQYEeqWoqvR8h7srw"/>
+            </guard>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mKtZoW-YEeqPI5T_1jmdhA" name="MessageRecv12" message="_mKq9YG-YEeqPI5T_1jmdhA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ldX4UHQTEeqWoqvR8h7srw" name="Message0Send1" message="_ldXRQHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ldYfYHQTEeqWoqvR8h7srw" name="Message0Recv1" message="_ldXRQHQTEeqWoqvR8h7srw"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_x8D7sXQVEeqWoqvR8h7srw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_QNtVQHQWEeqWoqvR8h7srw" value="offline kupovina"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_x8EiwnQVEeqWoqvR8h7srw" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_x8EiwXQVEeqWoqvR8h7srw"/>
+        </guard>
+      </operand>
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_3avx8HQVEeqWoqvR8h7srw" name="InteractionOperand0" covered="_-5mKsG-XEeqPI5T_1jmdhA _DwfoMG-YEeqPI5T_1jmdhA _2IIQUHQREeqWoqvR8h7srw _AywEsG-YEeqPI5T_1jmdhA _zVUKcHQREeqWoqvR8h7srw _BjIUAHQSEeqWoqvR8h7srw">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r773MHQTEeqWoqvR8h7srw" name="Message0Send2" message="_r75a8HQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r78eQHQTEeqWoqvR8h7srw" name="Message0Recv2" message="_r75a8HQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tgASAHQTEeqWoqvR8h7srw" name="Message0Send3" message="_tf91wHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tgASAXQTEeqWoqvR8h7srw" name="Message0Recv3" message="_tf91wHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_DMNfwHQUEeqWoqvR8h7srw" name="ActionExecSpec4Start" covered="_zVUKcHQREeqWoqvR8h7srw" execution="_DMOt4HQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_DMOt4HQUEeqWoqvR8h7srw" name="ActionExecSpec4" covered="_zVUKcHQREeqWoqvR8h7srw" finish="_E89rsHQUEeqWoqvR8h7srw" start="_DMNfwHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zByfkHQTEeqWoqvR8h7srw" name="Message0Send4" message="_zBwqYHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zByfkXQTEeqWoqvR8h7srw" name="Message0Recv4" message="_zBwqYHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_TBINMHQYEeqWoqvR8h7srw" name="ActionExecSpec3Start" covered="_2IIQUHQREeqWoqvR8h7srw" execution="_7Z-SgHQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_7Z-SgHQTEeqWoqvR8h7srw" name="ActionExecSpec3" covered="_2IIQUHQREeqWoqvR8h7srw" finish="_E87PcHQUEeqWoqvR8h7srw" start="_TBINMHQYEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3kGNIHQTEeqWoqvR8h7srw" name="Message0Send5" message="_3kDw4HQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3kG0MHQTEeqWoqvR8h7srw" name="Message0Recv5" covered="_2IIQUHQREeqWoqvR8h7srw" message="_3kDw4HQTEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E89rsHQUEeqWoqvR8h7srw" name="Message0Recv" covered="_zVUKcHQREeqWoqvR8h7srw" message="_E82W8HQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_E87PcHQUEeqWoqvR8h7srw" name="Message0Send" covered="_2IIQUHQREeqWoqvR8h7srw" message="_E82W8HQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eHgokHQUEeqWoqvR8h7srw" name="Message0Send6" message="_eHgBgHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eHhPoHQUEeqWoqvR8h7srw" name="Message0Recv6" message="_eHgBgHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_grfBMHQUEeqWoqvR8h7srw" name="Message0Send7" message="_grdMAHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_grfBMXQUEeqWoqvR8h7srw" name="Message0Recv7" message="_grdMAHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jvwDcHQUEeqWoqvR8h7srw" name="Message0Send8" message="_jvtAIHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jvwDcXQUEeqWoqvR8h7srw" name="Message0Recv8" message="_jvtAIHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rhStIHQUEeqWoqvR8h7srw" name="Message0Send9" message="_rhPp0HQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rhT7QHQUEeqWoqvR8h7srw" name="Message0Recv9" message="_rhPp0HQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_25y2cHQUEeqWoqvR8h7srw" name="Message0Send10" message="_25waMHQUEeqWoqvR8h7srw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_25y2cXQUEeqWoqvR8h7srw" name="Message0Recv10" message="_25waMHQUEeqWoqvR8h7srw"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_3awZAHQVEeqWoqvR8h7srw">
+          <specification xmi:type="uml:LiteralString" xmi:id="_axutoHQWEeqWoqvR8h7srw" value="online kupovina"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_3awZA3QVEeqWoqvR8h7srw" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_3awZAnQVEeqWoqvR8h7srw"/>
+        </guard>
+      </operand>
+    </fragment>
+    <message xmi:type="uml:Message" xmi:id="_hVBH8G-WEeqPI5T_1jmdhA" name="Pretrazivanje prodavnica" receiveEvent="_hVEyUG-WEeqPI5T_1jmdhA" sendEvent="_hVC9IG-WEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_qecxoG-WEeqPI5T_1jmdhA" name="Odlazak u kupovinu" receiveEvent="_qeem0G-WEeqPI5T_1jmdhA" sendEvent="_qed_wG-WEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_t2iu0G-WEeqPI5T_1jmdhA" name="Pregled mape" receiveEvent="_t2nnUG-WEeqPI5T_1jmdhA" sendEvent="_t2nAQG-WEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_wL9uEG-WEeqPI5T_1jmdhA" name="Eventualna uputstva" receiveEvent="_wL-8MW-WEeqPI5T_1jmdhA" sendEvent="_wL-8MG-WEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_0ESqgG-WEeqPI5T_1jmdhA" name="Provera postojanja proizvoda" receiveEvent="_0EVt0G-WEeqPI5T_1jmdhA" sendEvent="_0EVGwG-WEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_RDhZ8G-XEeqPI5T_1jmdhA" name="Placanje za fizicka lica" receiveEvent="_RDioEG-XEeqPI5T_1jmdhA" sendEvent="_RDiBAG-XEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_JTYB8G-YEeqPI5T_1jmdhA" name="Prijava firme" receiveEvent="_JTbsUG-YEeqPI5T_1jmdhA" sendEvent="_JTaeMG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_LFA-sG-YEeqPI5T_1jmdhA" name="Upis u bazu firmi" receiveEvent="_LFFQIG-YEeqPI5T_1jmdhA" sendEvent="_LFECAG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_Nh2NgG-YEeqPI5T_1jmdhA" name="Pretrazivanje prodavnica" receiveEvent="_Nh4pwG-YEeqPI5T_1jmdhA" sendEvent="_Nh4CsG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_RzY7MG-YEeqPI5T_1jmdhA" name="Pregled mape" receiveEvent="_RzaJUW-YEeqPI5T_1jmdhA" sendEvent="_RzaJUG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_ey3pYG-YEeqPI5T_1jmdhA" name="Eventualna uputstva" receiveEvent="_ey7TwG-YEeqPI5T_1jmdhA" sendEvent="_ey6ssG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_gsxKQG-YEeqPI5T_1jmdhA" name="Provera postojanja proizvoda" receiveEvent="_gsyYYW-YEeqPI5T_1jmdhA" sendEvent="_gsyYYG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_mKq9YG-YEeqPI5T_1jmdhA" name="Placanje za pravna lica" receiveEvent="_mKtZoW-YEeqPI5T_1jmdhA" sendEvent="_mKtZoG-YEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_LMPyoG-ZEeqPI5T_1jmdhA" name="Registracija" receiveEvent="_LMTdAG-ZEeqPI5T_1jmdhA" sendEvent="_LMSO4G-ZEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_MbRxkG-ZEeqPI5T_1jmdhA" name="Logovanje" receiveEvent="_MbU04G-ZEeqPI5T_1jmdhA" sendEvent="_MbS_sG-ZEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_WiEbYG-ZEeqPI5T_1jmdhA" name="Pretrazivanje na sajtu" receiveEvent="_WiGQkG-ZEeqPI5T_1jmdhA" sendEvent="_WiFpgG-ZEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_mups0G-bEeqPI5T_1jmdhA" name="Prijem posiljke" receiveEvent="_muswIG-bEeqPI5T_1jmdhA" sendEvent="_muriAG-bEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_o_tJcG-bEeqPI5T_1jmdhA" name="Obavestenje klijenta o datumu pristizanja posiljke" receiveEvent="_o_xa4W-bEeqPI5T_1jmdhA" sendEvent="_o_xa4G-bEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_vxQ80G-bEeqPI5T_1jmdhA" name="Dostavljanje" receiveEvent="_vxVOQG-bEeqPI5T_1jmdhA" sendEvent="_vxUAIG-bEeqPI5T_1jmdhA"/>
+    <message xmi:type="uml:Message" xmi:id="_K1K74HBIEeq9AKkPm7XGUA" name="Dostupnost proizvoda" receiveEvent="_K1MKAHBIEeq9AKkPm7XGUA" sendEvent="_K1Li8HBIEeq9AKkPm7XGUA"/>
+    <message xmi:type="uml:Message" xmi:id="_srOQUHBIEeq9AKkPm7XGUA" name="Placanje karticom" receiveEvent="_srPecXBIEeq9AKkPm7XGUA" sendEvent="_srPecHBIEeq9AKkPm7XGUA"/>
+    <message xmi:type="uml:Message" xmi:id="_aoLbAHDfEeq_x7sXC32udQ" name="Naruci" receiveEvent="_aoyfAHDfEeq_x7sXC32udQ" sendEvent="_aowp0HDfEeq_x7sXC32udQ"/>
+    <message xmi:type="uml:Message" xmi:id="_OgZf4HQLEeqWoqvR8h7srw" name="Registracija" receiveEvent="_OguQAHQLEeqWoqvR8h7srw" sendEvent="_Ogto8HQLEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_cPMyMHQLEeqWoqvR8h7srw" name="Logovanje" receiveEvent="_cPRqsHQLEeqWoqvR8h7srw" sendEvent="_cPPOcHQLEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_mFT7sHQLEeqWoqvR8h7srw" name="Pretrazivanje na sajtu" receiveEvent="_mFY0MHQLEeqWoqvR8h7srw" sendEvent="_mFXmEHQLEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_4HDp4HQLEeqWoqvR8h7srw" name="Dostupnost proizvoda" receiveEvent="_4HHUQHQLEeqWoqvR8h7srw" sendEvent="_4HEQ8HQLEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_Q2ZRcHQMEeqWoqvR8h7srw" name="Naruci" messageSort="reply" receiveEvent="_Q2f_IHQMEeqWoqvR8h7srw" sendEvent="_Q2di4HQMEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_auKAwHQMEeqWoqvR8h7srw" name="Placanje karticom" receiveEvent="_auOSMHQMEeqWoqvR8h7srw" sendEvent="_auNEEHQMEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_u4XQQHQMEeqWoqvR8h7srw" name="Prijem posiljke" receiveEvent="_u4a6oHQMEeqWoqvR8h7srw" sendEvent="_u4ZFcHQMEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_zkAgAHQMEeqWoqvR8h7srw" name="Obavestenje klijentao datumu pristizanja posiljke" receiveEvent="_zkFYgHQMEeqWoqvR8h7srw" sendEvent="_zkDjUHQMEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_AeKCQHQNEeqWoqvR8h7srw" name="Dostavljanje" receiveEvent="_AeNFkHQNEeqWoqvR8h7srw" sendEvent="_AeMegHQNEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_IqSEQHQPEeqWoqvR8h7srw" name="Narucivanje" messageSort="reply" receiveEvent="_IqSrUXQPEeqWoqvR8h7srw" sendEvent="_IqSrUHQPEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_b1JWoHQPEeqWoqvR8h7srw" name="Preuzimanje proizvoda" receiveEvent="_b1NBAHQPEeqWoqvR8h7srw" sendEvent="_b1Ly4HQPEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_GrwlQHQTEeqWoqvR8h7srw" name="Odlazak u kupovinu" receiveEvent="_GrxzYHQTEeqWoqvR8h7srw" sendEvent="_GrxMUHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_byxbQHQTEeqWoqvR8h7srw" name="Narucivanje" messageSort="reply" receiveEvent="_byz3gHQTEeqWoqvR8h7srw" sendEvent="_byzQcHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_ldXRQHQTEeqWoqvR8h7srw" name="Preuzimanje proizvoda" receiveEvent="_ldYfYHQTEeqWoqvR8h7srw" sendEvent="_ldX4UHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_r75a8HQTEeqWoqvR8h7srw" name="Registracija" receiveEvent="_r78eQHQTEeqWoqvR8h7srw" sendEvent="_r773MHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_tf91wHQTEeqWoqvR8h7srw" name="Logovanje" receiveEvent="_tgASAXQTEeqWoqvR8h7srw" sendEvent="_tgASAHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_zBwqYHQTEeqWoqvR8h7srw" name="Pretrazivanje na sajtu" receiveEvent="_zByfkXQTEeqWoqvR8h7srw" sendEvent="_zByfkHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_3kDw4HQTEeqWoqvR8h7srw" name="Dostupnost proizvoda" receiveEvent="_3kG0MHQTEeqWoqvR8h7srw" sendEvent="_3kGNIHQTEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_E82W8HQUEeqWoqvR8h7srw" name="Naruci" messageSort="reply" receiveEvent="_E89rsHQUEeqWoqvR8h7srw" sendEvent="_E87PcHQUEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_eHgBgHQUEeqWoqvR8h7srw" name="Placanje karticom" receiveEvent="_eHhPoHQUEeqWoqvR8h7srw" sendEvent="_eHgokHQUEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_grdMAHQUEeqWoqvR8h7srw" name="Prijem posiljke" receiveEvent="_grfBMXQUEeqWoqvR8h7srw" sendEvent="_grfBMHQUEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_jvtAIHQUEeqWoqvR8h7srw" name="Obavestenje klijenta o datumu pristizanja posiljke" receiveEvent="_jvwDcXQUEeqWoqvR8h7srw" sendEvent="_jvwDcHQUEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_rhPp0HQUEeqWoqvR8h7srw" name="Dostavljanje" receiveEvent="_rhT7QHQUEeqWoqvR8h7srw" sendEvent="_rhStIHQUEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_yxKNIHQUEeqWoqvR8h7srw" name="Preuzimanje proizvoda" receiveEvent="_yxOekXQUEeqWoqvR8h7srw" sendEvent="_yxOekHQUEeqWoqvR8h7srw"/>
+    <message xmi:type="uml:Message" xmi:id="_25waMHQUEeqWoqvR8h7srw" name="Preuzimanje proizvoda" receiveEvent="_25y2cXQUEeqWoqvR8h7srw" sendEvent="_25y2cHQUEeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bWG1IG94EeqPI5T_1jmdhA" name="Fizicko lice">
+    <generalization xmi:type="uml:Generalization" xmi:id="_THTbkHP1EeqWoqvR8h7srw" general="_Q1kCcHP1EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_cxem8G94EeqPI5T_1jmdhA" name="Pravno lice">
+    <generalization xmi:type="uml:Generalization" xmi:id="_T746MHP1EeqWoqvR8h7srw" general="_Q1kCcHP1EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gv158G94EeqPI5T_1jmdhA" name="Info pult"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YGjTcG95EeqPI5T_1jmdhA" name="Pregled mape">
+    <extend xmi:type="uml:Extend" xmi:id="_kHeHoG95EeqPI5T_1jmdhA" extendedCase="_b4LK8G95EeqPI5T_1jmdhA" extensionLocation="_kHgj4G95EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_b4LK8G95EeqPI5T_1jmdhA" name="Eventualna uputstva">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kHgj4G95EeqPI5T_1jmdhA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nmMRQG95EeqPI5T_1jmdhA" memberEnd="_nmPUkG95EeqPI5T_1jmdhA _nmRw0G95EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmOtgG95EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmOtgW95EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nmPUkG95EeqPI5T_1jmdhA" name="pregled mape" type="_YGjTcG95EeqPI5T_1jmdhA" association="_nmMRQG95EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nmRw0G95EeqPI5T_1jmdhA" name="info pult" type="_gv158G94EeqPI5T_1jmdhA" association="_nmMRQG95EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zUCYcG95EeqPI5T_1jmdhA" name="Prijava firme">
+    <include xmi:type="uml:Include" xmi:id="_6tAxIG95EeqPI5T_1jmdhA" addition="_0MHP8G95EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0MHP8G95EeqPI5T_1jmdhA" name="Upis u bazu firmi">
+    <include xmi:type="uml:Include" xmi:id="_7as9kG95EeqPI5T_1jmdhA" addition="_11BHcG95EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_11BHcG95EeqPI5T_1jmdhA" name="Pretrazivanje prodavnica">
+    <extend xmi:type="uml:Extend" xmi:id="_--iQsG95EeqPI5T_1jmdhA" extendedCase="_9Cv5cG95EeqPI5T_1jmdhA" extensionLocation="_--kF4G95EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6DrgQG95EeqPI5T_1jmdhA" memberEnd="_6DsuYm95EeqPI5T_1jmdhA _6Dt8gG95EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6DsuYG95EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6DsuYW95EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6DsuYm95EeqPI5T_1jmdhA" name="prijava firme" type="_zUCYcG95EeqPI5T_1jmdhA" association="_6DrgQG95EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6Dt8gG95EeqPI5T_1jmdhA" name="pravno lice" type="_cxem8G94EeqPI5T_1jmdhA" association="_6DrgQG95EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9Cv5cG95EeqPI5T_1jmdhA" name="Odlazak u kupovinu">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_--kF4G95EeqPI5T_1jmdhA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Eob4cG96EeqPI5T_1jmdhA" memberEnd="_EodGkm96EeqPI5T_1jmdhA _EodtoG96EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EodGkG96EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EodGkW96EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EodGkm96EeqPI5T_1jmdhA" name="info pult" type="_gv158G94EeqPI5T_1jmdhA" association="_Eob4cG96EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EodtoG96EeqPI5T_1jmdhA" name="odlazak u kupovinu" type="_9Cv5cG95EeqPI5T_1jmdhA" association="_Eob4cG96EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gR_1cG96EeqPI5T_1jmdhA" name="Maloprodaja">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Dclu0HP4EeqWoqvR8h7srw" general="__ubbAHP3EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_iP4ecG96EeqPI5T_1jmdhA" name="Velikoprodaja">
+    <generalization xmi:type="uml:Generalization" xmi:id="_EDJYgHP4EeqWoqvR8h7srw" general="__ubbAHP3EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_laW2YG96EeqPI5T_1jmdhA" name="Provera postojanja proizvoda"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HUZ6AG97EeqPI5T_1jmdhA" name="Registracija">
+    <include xmi:type="uml:Include" xmi:id="_KgnXUG97EeqPI5T_1jmdhA" addition="_IzPPgG97EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IzPPgG97EeqPI5T_1jmdhA" name="Logovanje"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PtNikG98EeqPI5T_1jmdhA" name="Pretrazivanje na sajtu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3CTSkG98EeqPI5T_1jmdhA" name="Placanje za fizicka lica"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_88eyAG98EeqPI5T_1jmdhA" name="Placanje za pravna lica"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CnfNAG99EeqPI5T_1jmdhA" memberEnd="_CngbIm99EeqPI5T_1jmdhA _CnhCMG99EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CngbIG99EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CngbIW99EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CngbIm99EeqPI5T_1jmdhA" name="placanje za pravna lica" type="_88eyAG98EeqPI5T_1jmdhA" association="_CnfNAG99EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CnhCMG99EeqPI5T_1jmdhA" name="velikoprodaja" type="_iP4ecG96EeqPI5T_1jmdhA" association="_CnfNAG99EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pIxsEG9-EeqPI5T_1jmdhA" name="Gotovina"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qa2_AG9-EeqPI5T_1jmdhA" name="Kartica"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vKldgG9-EeqPI5T_1jmdhA" name="Sastavljanje ugovora">
+    <include xmi:type="uml:Include" xmi:id="_Bv7A8G9_EeqPI5T_1jmdhA" addition="_wgaoAG9-EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wgaoAG9-EeqPI5T_1jmdhA" name="Izdavanje racuna"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0WVJoG9-EeqPI5T_1jmdhA" memberEnd="_0WVwsm9-EeqPI5T_1jmdhA _0WXl4G9-EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0WVwsG9-EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0WVwsW9-EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0WVwsm9-EeqPI5T_1jmdhA" name="gotovina" type="_pIxsEG9-EeqPI5T_1jmdhA" association="_0WVJoG9-EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0WXl4G9-EeqPI5T_1jmdhA" name="placanje za fizicka lica" type="_3CTSkG98EeqPI5T_1jmdhA" association="_0WVJoG9-EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CiK9QG9_EeqPI5T_1jmdhA" memberEnd="_CiMLYm9_EeqPI5T_1jmdhA _CiNZgG9_EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CiMLYG9_EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CiMLYW9_EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CiMLYm9_EeqPI5T_1jmdhA" name="sastavljanje ugovora" type="_vKldgG9-EeqPI5T_1jmdhA" association="_CiK9QG9_EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CiNZgG9_EeqPI5T_1jmdhA" name="placanje za pravna lica" type="_88eyAG98EeqPI5T_1jmdhA" association="_CiK9QG9_EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fWby0G9_EeqPI5T_1jmdhA" memberEnd="_fWby029_EeqPI5T_1jmdhA _fWePEG9_EeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fWby0W9_EeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fWby0m9_EeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fWby029_EeqPI5T_1jmdhA" name="kartica" type="_qa2_AG9-EeqPI5T_1jmdhA" association="_fWby0G9_EeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fWePEG9_EeqPI5T_1jmdhA" name="placanje za fizicka lica" type="_3CTSkG98EeqPI5T_1jmdhA" association="_fWby0G9_EeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0k3qAG-AEeqPI5T_1jmdhA" name="Sluzba za dostavu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3SEQEG-AEeqPI5T_1jmdhA" name="Prijem posiljke">
+    <include xmi:type="uml:Include" xmi:id="_DqflUG-BEeqPI5T_1jmdhA" addition="_46NSkG-AEeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_46NSkG-AEeqPI5T_1jmdhA" name="Obavestenje klijenta o datumu pristizanja posiljke"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_BL6qEG-BEeqPI5T_1jmdhA" name="Dostavljanje"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LarkIG-BEeqPI5T_1jmdhA" memberEnd="_LarkI2-BEeqPI5T_1jmdhA _LasLMG-BEeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LarkIW-BEeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LarkIm-BEeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LarkI2-BEeqPI5T_1jmdhA" name="sluzba za dostavu" type="_0k3qAG-AEeqPI5T_1jmdhA" association="_LarkIG-BEeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LasLMG-BEeqPI5T_1jmdhA" name="dostavljanje" type="_BL6qEG-BEeqPI5T_1jmdhA" association="_LarkIG-BEeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__9RQMG-BEeqPI5T_1jmdhA" memberEnd="__9R3QG-BEeqPI5T_1jmdhA __9R3QW-BEeqPI5T_1jmdhA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__9RQMW-BEeqPI5T_1jmdhA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__9RQMm-BEeqPI5T_1jmdhA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__9R3QG-BEeqPI5T_1jmdhA" name="prijem posiljke" type="_3SEQEG-AEeqPI5T_1jmdhA" association="__9RQMG-BEeqPI5T_1jmdhA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__9R3QW-BEeqPI5T_1jmdhA" name="sluzba za dostavu" type="_0k3qAG-AEeqPI5T_1jmdhA" association="__9RQMG-BEeqPI5T_1jmdhA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4gwbQHBFEeq9AKkPm7XGUA" name="Placanje karticom"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_N_6EoHBrEeqkQfJ4p5cTbQ" name="Kupac">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NCkxU3B5EeqkQfJ4p5cTbQ" name="proizvod" type="_rZphoHByEeqkQfJ4p5cTbQ" association="_NCkxUHB5EeqkQfJ4p5cTbQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RDtEcHB5EeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RDx88HB5EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-95okHBrEeqkQfJ4p5cTbQ" name="placanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EyO-sHBsEeqkQfJ4p5cTbQ" name="preuzimanjeProizvoda"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GtJMMHBsEeqkQfJ4p5cTbQ" name="pretrazivanje"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_buXYsHBrEeqkQfJ4p5cTbQ" name="FizickoLice">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_j1ATMHBsEeqkQfJ4p5cTbQ" name="karticaID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EEORkHQvEequE9hGXapHMA" name="korisnickoIme">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_X9StwHQvEequE9hGXapHMA" name="sifra" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a_fTcHQvEequE9hGXapHMA" name="emailAdresa">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dpJdUHQvEequE9hGXapHMA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dpjtAHQvEequE9hGXapHMA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_49ibkHQvEequE9hGXapHMA" name="onlineKupovina">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_lErOgHBwEeqkQfJ4p5cTbQ" client="_buXYsHBrEeqkQfJ4p5cTbQ" supplier="_N_6EoHBrEeqkQfJ4p5cTbQ" contract="_N_6EoHBrEeqkQfJ4p5cTbQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e3TDEHBsEeqkQfJ4p5cTbQ" name="pretrazivanjeProdavnica"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_P4DPgHQwEequE9hGXapHMA" name="logovanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Sm40UHQwEequE9hGXapHMA" name="registracija"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UNaGMHQwEequE9hGXapHMA" name="pretrazivanjeNaSajtu"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dCzcEHBrEeqkQfJ4p5cTbQ" name="PravnoLice">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_U6ZNsHBvEeqkQfJ4p5cTbQ" name="PIB" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fGw7EHBvEeqkQfJ4p5cTbQ" name="naziv">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VEPdAHQvEequE9hGXapHMA" name="korisnickoIme">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fIxdAHQvEequE9hGXapHMA" name="sifra" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nxwsEHQvEequE9hGXapHMA" name="karticaID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zR2rIHQvEequE9hGXapHMA" name="onlineKupovina">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zyvXsHBrEeqkQfJ4p5cTbQ" client="_dCzcEHBrEeqkQfJ4p5cTbQ" supplier="_N_6EoHBrEeqkQfJ4p5cTbQ" contract="_N_6EoHBrEeqkQfJ4p5cTbQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NbmBMHBsEeqkQfJ4p5cTbQ" name="prijavaFirme"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O1sAoHBsEeqkQfJ4p5cTbQ" name="upisUBazuFirmi"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZaCwMHBsEeqkQfJ4p5cTbQ" name="pretrazivanjeProdavnica"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CNXBIHQwEequE9hGXapHMA" name="logovanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HjIL8HQwEequE9hGXapHMA" name="registracija"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NUbcMHQwEequE9hGXapHMA" name="pretrazivanjeNaSajtu"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IWZ2wHBxEeqkQfJ4p5cTbQ" name="SluzbaZaDostavu">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TRJbIHBzEeqkQfJ4p5cTbQ" name="brojVozaca">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lplyEHBzEeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lpqDgHBzEeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZMbt0HBzEeqkQfJ4p5cTbQ" name="brojVozila">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pTROgHBzEeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pTVf8HBzEeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gz8jsHBxEeqkQfJ4p5cTbQ" name="prijemPosiljke"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oC5dsHBxEeqkQfJ4p5cTbQ" name="obavestenjeKlijentu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qr-YwHBxEeqkQfJ4p5cTbQ" name="dostavi"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_UPkdIHBxEeqkQfJ4p5cTbQ" name="Prodavnica">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xXVLkHBzEeqkQfJ4p5cTbQ" name="naziv">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WjSzQHBxEeqkQfJ4p5cTbQ" name="narucivanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zH6DQHBxEeqkQfJ4p5cTbQ" name="zarada"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9ebyMHBxEeqkQfJ4p5cTbQ" name="izbrojiKlijente"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Yy76oHBxEeqkQfJ4p5cTbQ" name="Maloprodaja">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WpUbYHB0EeqkQfJ4p5cTbQ" name="zarada" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZLIQ0HB0EeqkQfJ4p5cTbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZLKtEHB0EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fxgu8HB0EeqkQfJ4p5cTbQ" name="brojKlijenata" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iJWJAHB0EeqkQfJ4p5cTbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iJZMUHB0EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_KCF_sHB1EeqkQfJ4p5cTbQ" client="_Yy76oHBxEeqkQfJ4p5cTbQ" supplier="_UPkdIHBxEeqkQfJ4p5cTbQ" contract="_UPkdIHBxEeqkQfJ4p5cTbQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2JXpIHBxEeqkQfJ4p5cTbQ" name="zarada"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Flq_EHByEeqkQfJ4p5cTbQ" name="narucivanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Gp9GkHByEeqkQfJ4p5cTbQ" name="izbrojiKlijente"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZuwCoHBxEeqkQfJ4p5cTbQ" name="Velikoprodaja">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DmHQMHB0EeqkQfJ4p5cTbQ" name="zarada" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dAagUHB0EeqkQfJ4p5cTbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dAc8kHB0EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_H0y3IHB0EeqkQfJ4p5cTbQ" name="brojKlijenata" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pb_5EHB0EeqkQfJ4p5cTbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PcFYoHB0EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JfPKQHB1EeqkQfJ4p5cTbQ" client="_ZuwCoHBxEeqkQfJ4p5cTbQ" supplier="_UPkdIHBxEeqkQfJ4p5cTbQ" contract="_UPkdIHBxEeqkQfJ4p5cTbQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3N95sHBxEeqkQfJ4p5cTbQ" name="zarada"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Mx1DwHByEeqkQfJ4p5cTbQ" name="narucivanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NpkkEHByEeqkQfJ4p5cTbQ" name="izbrojiKlijente"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WjWoMHByEeqkQfJ4p5cTbQ" name="sastaviUgovor"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZSM0EHByEeqkQfJ4p5cTbQ" name="izdajRacun"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cHRZMHBxEeqkQfJ4p5cTbQ" name="OnlineProdavnica">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mLTikHB0EeqkQfJ4p5cTbQ" name="zarada" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o1a_cHB0EeqkQfJ4p5cTbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o1ep0HB0EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p1hxkHB0EeqkQfJ4p5cTbQ" name="brojKlijenata" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r8F1cHB0EeqkQfJ4p5cTbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r8HqoHB0EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tqpB8HB0EeqkQfJ4p5cTbQ" name="webSajt">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_I9JJ0HB1EeqkQfJ4p5cTbQ" client="_cHRZMHBxEeqkQfJ4p5cTbQ" supplier="_UPkdIHBxEeqkQfJ4p5cTbQ" contract="_UPkdIHBxEeqkQfJ4p5cTbQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_39yNEHBxEeqkQfJ4p5cTbQ" name="zarada"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O2V5MHByEeqkQfJ4p5cTbQ" name="narucivanje"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QBpOsHByEeqkQfJ4p5cTbQ" name="izbrojiKlijente"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rZphoHByEeqkQfJ4p5cTbQ" name="Proizvod">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t-SooHByEeqkQfJ4p5cTbQ" name="sifra">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_20AsIHByEeqkQfJ4p5cTbQ" name="naziv">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8MHZQHByEeqkQfJ4p5cTbQ" name="kolicina" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__1CAsHByEeqkQfJ4p5cTbQ" name="naLageru">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_Hrsa8HBzEeqkQfJ4p5cTbQ"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KmDTQHBzEeqkQfJ4p5cTbQ" name="dodaj"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lfMUsHZtEeqHQNZng6-7PA" name="dostupan"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vqGQ4HB3EeqkQfJ4p5cTbQ" memberEnd="_vqG38nB3EeqkQfJ4p5cTbQ _vqG383B3EeqkQfJ4p5cTbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vqG38HB3EeqkQfJ4p5cTbQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vqG38XB3EeqkQfJ4p5cTbQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vqG383B3EeqkQfJ4p5cTbQ" name="kupac" type="_N_6EoHBrEeqkQfJ4p5cTbQ" association="_vqGQ4HB3EeqkQfJ4p5cTbQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_95z34HB3EeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9527MHB3EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vqG38nB3EeqkQfJ4p5cTbQ" name="prodavnica" type="_UPkdIHBxEeqkQfJ4p5cTbQ" association="_vqGQ4HB3EeqkQfJ4p5cTbQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6pLNkHB3EeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6pNCwHB3EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KJGfQHB4EeqkQfJ4p5cTbQ" visibility="public" memberEnd="_KJJikXB4EeqkQfJ4p5cTbQ _KJKJoHB4EeqkQfJ4p5cTbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KJI7gHB4EeqkQfJ4p5cTbQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KJJikHB4EeqkQfJ4p5cTbQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KJKJoHB4EeqkQfJ4p5cTbQ" name="proizvod" type="_rZphoHByEeqkQfJ4p5cTbQ" aggregation="shared" association="_KJGfQHB4EeqkQfJ4p5cTbQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c3nM0HB4EeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c4Ef0HB4EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KJJikXB4EeqkQfJ4p5cTbQ" name="prodavnica" type="_UPkdIHBxEeqkQfJ4p5cTbQ" association="_KJGfQHB4EeqkQfJ4p5cTbQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_krnUoHB4EeqkQfJ4p5cTbQ" memberEnd="_krpJ0XB4EeqkQfJ4p5cTbQ _krpJ0nB4EeqkQfJ4p5cTbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kroiwHB4EeqkQfJ4p5cTbQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_krpJ0HB4EeqkQfJ4p5cTbQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_krpJ0nB4EeqkQfJ4p5cTbQ" name="sluzbazadostavu" type="_IWZ2wHBxEeqkQfJ4p5cTbQ" association="_krnUoHB4EeqkQfJ4p5cTbQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_krpJ0XB4EeqkQfJ4p5cTbQ" name="onlineprodavnica" type="_cHRZMHBxEeqkQfJ4p5cTbQ" aggregation="composite" association="_krnUoHB4EeqkQfJ4p5cTbQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4F7YQHB4EeqkQfJ4p5cTbQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4F_psHB4EeqkQfJ4p5cTbQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NCkxUHB5EeqkQfJ4p5cTbQ" memberEnd="_NCkxU3B5EeqkQfJ4p5cTbQ _NCmmgHB5EeqkQfJ4p5cTbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NCkxUXB5EeqkQfJ4p5cTbQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NCkxUnB5EeqkQfJ4p5cTbQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NCmmgHB5EeqkQfJ4p5cTbQ" name="kupac" type="_N_6EoHBrEeqkQfJ4p5cTbQ" association="_NCkxUHB5EeqkQfJ4p5cTbQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_hmH6AHDeEeq_x7sXC32udQ" name="Online prodavnica">
+    <generalization xmi:type="uml:Generalization" xmi:id="_DASNUHP4EeqWoqvR8h7srw" general="__ubbAHP3EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o37TsHDeEeq_x7sXC32udQ" memberEnd="_o39I4HDeEeq_x7sXC32udQ _o39I4XDeEeq_x7sXC32udQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o38h0HDeEeq_x7sXC32udQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o38h0XDeEeq_x7sXC32udQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o39I4HDeEeq_x7sXC32udQ" name="placanje karticom" type="_4gwbQHBFEeq9AKkPm7XGUA" association="_o37TsHDeEeq_x7sXC32udQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o39I4XDeEeq_x7sXC32udQ" name="online prodavnica" type="_hmH6AHDeEeq_x7sXC32udQ" association="_o37TsHDeEeq_x7sXC32udQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Q1kCcHP1EeqWoqvR8h7srw" name="Klijent"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QNI7EHP2EeqWoqvR8h7srw" name="Online kupovina"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UWfWEHP2EeqWoqvR8h7srw" name="Offline kupovina"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lmHDwHP2EeqWoqvR8h7srw" memberEnd="_lmhTcHP2EeqWoqvR8h7srw _lmjIoHP2EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lmbz4HP2EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lmdpEHP2EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lmhTcHP2EeqWoqvR8h7srw" name="pretrazivanje prodavnica" type="_11BHcG95EeqPI5T_1jmdhA" association="_lmHDwHP2EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lmjIoHP2EeqWoqvR8h7srw" name="offline kupovina" type="_UWfWEHP2EeqWoqvR8h7srw" association="_lmHDwHP2EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mj4TkHP2EeqWoqvR8h7srw" memberEnd="_mj7W4XP2EeqWoqvR8h7srw _mj798HP2EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mj6v0HP2EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mj7W4HP2EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mj7W4XP2EeqWoqvR8h7srw" name="placanje za fizicka lica" type="_3CTSkG98EeqPI5T_1jmdhA" association="_mj4TkHP2EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mj798HP2EeqWoqvR8h7srw" name="offline kupovina" type="_UWfWEHP2EeqWoqvR8h7srw" association="_mj4TkHP2EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3j6GEHP2EeqWoqvR8h7srw" name="Nacin kupovine"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5pPa4HP2EeqWoqvR8h7srw" memberEnd="_5pQpAnP2EeqWoqvR8h7srw _5pRQEHP2EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5pQpAHP2EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5pQpAXP2EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5pQpAnP2EeqWoqvR8h7srw" name="nacin kupovine" type="_3j6GEHP2EeqWoqvR8h7srw" association="_5pPa4HP2EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5pRQEHP2EeqWoqvR8h7srw" name="pravno lice" type="_cxem8G94EeqPI5T_1jmdhA" association="_5pPa4HP2EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6Odn0HP2EeqWoqvR8h7srw" memberEnd="_6OfdAHP2EeqWoqvR8h7srw _6OfdAXP2EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6Oe18HP2EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Oe18XP2EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6OfdAHP2EeqWoqvR8h7srw" name="nacin kupovine" type="_3j6GEHP2EeqWoqvR8h7srw" association="_6Odn0HP2EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6OfdAXP2EeqWoqvR8h7srw" name="fizicko lice" type="_bWG1IG94EeqPI5T_1jmdhA" association="_6Odn0HP2EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6nkEUHP2EeqWoqvR8h7srw" memberEnd="_6nnusHP2EeqWoqvR8h7srw _6nnusXP2EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6nmgkHP2EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6nnHoHP2EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6nnusHP2EeqWoqvR8h7srw" name="offline kupovina" type="_UWfWEHP2EeqWoqvR8h7srw" association="_6nkEUHP2EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6nnusXP2EeqWoqvR8h7srw" name="nacin kupovine" type="_3j6GEHP2EeqWoqvR8h7srw" association="_6nkEUHP2EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__ubbAHP3EeqWoqvR8h7srw" name="Prodavnica"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lt758HP4EeqWoqvR8h7srw" memberEnd="_Lt9IEXP4EeqWoqvR8h7srw _Lt9vIHP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lt8hAHP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lt9IEHP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lt9IEXP4EeqWoqvR8h7srw" name="prodavnica" type="__ubbAHP3EeqWoqvR8h7srw" association="_Lt758HP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lt9vIHP4EeqWoqvR8h7srw" name="provera postojanja proizvoda" type="_laW2YG96EeqPI5T_1jmdhA" association="_Lt758HP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uru5kHP4EeqWoqvR8h7srw" memberEnd="_urxV0nP4EeqWoqvR8h7srw _urx84HP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_urxV0HP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_urxV0XP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_urxV0nP4EeqWoqvR8h7srw" name="registracija" type="_HUZ6AG97EeqPI5T_1jmdhA" association="_uru5kHP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_urx84HP4EeqWoqvR8h7srw" name="online kupovina" type="_QNI7EHP2EeqWoqvR8h7srw" association="_uru5kHP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vEBdwHP4EeqWoqvR8h7srw" memberEnd="_vEFIIXP4EeqWoqvR8h7srw _vEFIInP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vEEhEHP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vEFIIHP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vEFIIXP4EeqWoqvR8h7srw" name="pretrazivanje na sajtu" type="_PtNikG98EeqPI5T_1jmdhA" association="_vEBdwHP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vEFIInP4EeqWoqvR8h7srw" name="online kupovina" type="_QNI7EHP2EeqWoqvR8h7srw" association="_vEBdwHP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w8Sm8HP4EeqWoqvR8h7srw" memberEnd="_w8T1EXP4EeqWoqvR8h7srw _w8T1EnP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w8TOAHP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w8T1EHP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w8T1EXP4EeqWoqvR8h7srw" name="online kupovina" type="_QNI7EHP2EeqWoqvR8h7srw" association="_w8Sm8HP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w8T1EnP4EeqWoqvR8h7srw" name="nacin kupovine" type="_3j6GEHP2EeqWoqvR8h7srw" association="_w8Sm8HP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_51ajwHP4EeqWoqvR8h7srw" memberEnd="_51cY8HP4EeqWoqvR8h7srw _51cY8XP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_51bx4HP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_51bx4XP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_51cY8HP4EeqWoqvR8h7srw" name="online kupovina" type="_QNI7EHP2EeqWoqvR8h7srw" association="_51ajwHP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_51cY8XP4EeqWoqvR8h7srw" name="online prodavnica" type="_hmH6AHDeEeq_x7sXC32udQ" association="_51ajwHP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6b5U8HP4EeqWoqvR8h7srw" memberEnd="_6b6jEnP4EeqWoqvR8h7srw _6b7KIHP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6b6jEHP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6b6jEXP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6b6jEnP4EeqWoqvR8h7srw" name="offline kupovina" type="_UWfWEHP2EeqWoqvR8h7srw" association="_6b5U8HP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6b7KIHP4EeqWoqvR8h7srw" name="maloprodaja" type="_gR_1cG96EeqPI5T_1jmdhA" association="_6b5U8HP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6_w3AHP4EeqWoqvR8h7srw" memberEnd="_6_yFIHP4EeqWoqvR8h7srw _6_yFIXP4EeqWoqvR8h7srw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6_xeEHP4EeqWoqvR8h7srw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6_xeEXP4EeqWoqvR8h7srw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6_yFIHP4EeqWoqvR8h7srw" name="offline kupovina" type="_UWfWEHP2EeqWoqvR8h7srw" association="_6_w3AHP4EeqWoqvR8h7srw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6_yFIXP4EeqWoqvR8h7srw" name="velikoprodaja" type="_iP4ecG96EeqPI5T_1jmdhA" association="_6_w3AHP4EeqWoqvR8h7srw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_TswM0HQHEeqWoqvR8h7srw" client="_hmH6AHDeEeq_x7sXC32udQ" supplier="_0k3qAG-AEeqPI5T_1jmdhA"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3Ehu0HA6Eeq9AKkPm7XGUA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3EsG4HA6Eeq9AKkPm7XGUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+  </profileApplication>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_9rESQHBsEeqkQfJ4p5cTbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9rESQXBsEeqkQfJ4p5cTbQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
